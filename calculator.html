@@ -1,0 +1,95 @@
+<!-- QUESTION 4: Make a calculator using switch/case and take a user input to perform any calculation. 
+if user enters any value other than 1-5, display a message 'Invalid Option' and end the program.  -->
+
+
+
+<!DOCTYPE html>  
+<html lang = "en">  
+<head>  
+<title> Calculator </title> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type= "text/css" href="styles.css">
+<!--  ???? JavaScript code seems to not be functional/ responsive with calcultor in broswer for user input ????????
+<script>
+let prompt= require('prompt-sync')()        
+let num = prompt(' Enter a value: ')    
+
+let calc = 0
+switch(calc)
+{
+    case 1:
+        {
+        console.log('Add..')
+        break;
+        }
+    case 2:
+        {
+        console.log('Subtract..')
+        break;
+        }
+    case 3:
+        {
+        console.log('Multiply..')
+        break;
+        }
+    case 4:
+        {
+        console.log('Divide..')
+        break;
+        }
+    case 5:
+        {
+        console.log('Exit..')
+        break;
+        }
+
+}
+
+if (num <1 || num >5) {
+      
+    console.log('Invalid Option')
+}
+</script>  -->
+</head>  
+<body>  
+<h1> " Online Calculator "</h1>  
+<div class= "formstyle">  
+<form name = "form1">  
+      
+   
+  <input id = "calc" type ="text" name = "answer"> <br> <br>  
+
+
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+   <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    
+    
+  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+    <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+  
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br>   
+ 
+  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br>   
+    
+</form>  
+</div>  
+</body>  
+</html>
