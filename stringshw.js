@@ -2,7 +2,7 @@
 
   let prompt = require('prompt-sync')()
 
-  let str = prompt(' enter a  word ')
+  let str = prompt(' enter a word ')
 
   let reverse=str.length-1
 
