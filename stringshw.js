@@ -64,7 +64,7 @@ let word = prompt(' Enter a phrase: ')
 
 //BONUS QUESTION: Capitalize the first letter of each word in a given string (or user entered string/sentence)
 
-const str = 'stay true to yourself';
+const str = 'life is good';
 
 
 const arr = str.split(" ");
